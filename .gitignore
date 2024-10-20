@@ -8,6 +8,7 @@ yarn-error.log*
 
 # Environment variables
 .env
+.env.*    # Include other .env variants like .env.test, .env.production
 
 # Build directories
 dist/
@@ -20,6 +21,7 @@ Thumbs.db
 # IDE specific files
 .idea/
 .vscode/
+*.code-workspace  # VSCode workspace file
 
 # Temporary files
 *.tmp
@@ -27,3 +29,51 @@ Thumbs.db
 
 # Coverage reports
 coverage/
+
+# Testing & Debugging related files
+*.log     # Generic log files (for tests, debugging)
+.jest/
+.jest-cache/
+.jest-test-results.json
+
+# Linting
+eslintcache
+*.eslintrc.js
+*.eslintrc.json
+
+# Prettier
+.prettierignore
+.prettierrc
+.prettierrc.js
+.prettierrc.json
+
+# TypeScript
+*.tsbuildinfo
+tsconfig.tsbuildinfo
+
+# Webpack
+webpack.stats.json
+
+# Husky
+.husky/_
+
+# OS generated files
+*.swp      # Swap files from vim
+*.swo      # Another swap file extension
+*.bak      # Backup files
+*.tmp      # Temporary files
+*.orig     # Merge resolution backups
+
+# npm lock file
+package-lock.json
+yarn.lock
+
+# Optional packages
+.pnp/
+.pnp.js
+.pnp.cjs
+.pnpm-debug.log
+
+# MacOS
+.AppleDouble
+.LSOverride
