@@ -25,24 +25,4 @@ const categories = [
   "Inspiration"
 ];
 
-// Function to get a random element by index
-const getRandomElement = (arr) => {
-  const randomIndex = Math.floor(Math.random() * arr.length);
-  return arr[randomIndex];
-};
-
-// Function to generate a random message
-const generateRandomMessage = () => {
-  // Get the same random index for quote, author, and category
-  const randomIndex = Math.floor(Math.random() * quotes.length);
-
-  const quote = quotes[randomIndex];
-  const author = authors[randomIndex];
-  const category = categories[randomIndex];
-
-  // Return the formatted message
-  return `"${quote}" - ${author} [${category}]`;
-};
-
-// Export the generateRandomMessage function
-module.exports = { generateRandomMessage };
+module.exports = { quotes, authors, categories };
