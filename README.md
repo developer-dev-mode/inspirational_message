@@ -33,6 +33,7 @@ To get a copy of the project up and running on your local machine, follow these 
    ```
 
 3. **Run the application:**
+
    ```bash
    node src/index.js
    ```
@@ -69,7 +70,7 @@ If you'd like to contribute to this project, please fork the repository and subm
 - 👀 I’m interested in ... I wake up coding and keep going until the sun goes down. I love learning and diving into projects—it's all about that eat, sleep, code life!
 - 🌱 I’m currently learning ... FullStack JS stack and Python soon
 - 💞️ I’m looking to collaborate on ... all things related to projects
-- 📫 How to reach me ... merndeveloper78@gmail.com
+- 📫 How to reach me ... <merndeveloper78@gmail.com>
 - 😄 Pronouns: ... Nope.
 - ⚡ Fun fact: ... I'm a Taurus, and I fully embrace that vibe. It really aligns with my approach to programming and client projects—grounded, determined, and ready to tackle challenges head-on!
 
